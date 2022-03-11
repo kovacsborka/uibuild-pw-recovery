@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+
+/*--------------------css reset end----------------------*/
+body {
+    background-color: #f2f2f2;
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 36px;
+    color: #006837;
+    margin: 10px;
+
+}
+
+@media screen and (max-width: 520px) {
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/*-------------------------------h1 end-----------------------------*/
+
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #467745;
+    font-size: 16px;
+    max-width: 520px;
+    height: auto;
+    background-color: #F9C582;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width: 520px){
+    .text {
+        width: 100%;
+    }
+}
+
+span {
+    font-style: italic;
+    align-self: flex-start;
+}
+
+/*--------------------------------div end----------------------------*/
+
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #98A991;
+    font-size: 16px;
+    width: 480px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+::placeholder {
+    color: #98A991;
+}
+
+@media screen and (max-width: 520px) {
+    input {
+        max-width: calc(100% - 40px);
+    }
+}
+
+/*-------------------input end---------------------*/
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 21px;
+    margin: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: #006837;
+    background-color: #F9C582;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.contentholder {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
